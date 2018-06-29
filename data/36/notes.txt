@@ -1,0 +1,11 @@
+3_2 appeared twice in vp36__5_21__3_30__3_2__2_6__8_7__5_36__4_10__8_20__7_32__2_10.wav and in 
+vp36__7_25__8_53__6_53__1_3__2_15__5_50__7_4__9_42__3_34__3_2.wav. The second one was changed to 3_23 which was missing.
+
+
+9_50 in vp36__9_17__6_54__0_15__2_34__4_51__9_50__2_23__5_51__1_32__5_52.wav was renamed to 9_46 which was previously missing.
+
+The following digits are still missing.
+
+3_20, 3_29
+
+TO HAVE 500 RECORDS, 3_19 and 3_28 WERE COPIED AND NAMED 3_20 AND 3_29.
