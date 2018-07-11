@@ -1,0 +1,15 @@
+net: "<path_to_network.prototxt>"
+type: "SGD"
+test_iter: <test_iter>
+test_interval: 100
+base_lr: 0.001
+lr_policy: "step"
+stepsize: 2500
+gamma: 0.5
+display: 100
+max_iter: 10000
+momentum: 0.9
+snapshot: 10000
+snapshot_prefix: "<path_snapshots>"
+clip_gradients: 5
+solver_mode: GPU
