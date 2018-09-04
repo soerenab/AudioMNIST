@@ -142,6 +142,15 @@
         "origin": "Europe, Germany, Muenchen", 
         "recordingdate": "17-07-31-17-17-08", 
         "recordingroom": "Kino"
+    },
+    "17": {
+        "accent": "German", 
+        "age": "26", 
+        "gender": "male", 
+        "native speaker": "no", 
+        "origin": "Europe, Germany, Berlin", 
+        "recordingdate": "17-07-31-18-09-29", 
+        "recordingroom": "Kino"
     }, 
     "18": {
         "accent": "Levant", 
@@ -177,6 +186,15 @@
         "native speaker": "no", 
         "origin": "Europe, Germany, Muenster", 
         "recordingdate": "17-08-14-18-02-37", 
+        "recordingroom": "Ruheraum"
+    }, 
+    "22": {
+        "accent": "German", 
+        "age": "33", 
+        "gender": "male", 
+        "native speaker": "no", 
+        "origin": "Europe, Germany, Braunschweig", 
+        "recordingdate": "17-08-15-13-38-24", 
         "recordingroom": "Ruheraum"
     }, 
     "23": {
@@ -276,6 +294,15 @@
         "native speaker": "no", 
         "origin": "Europe, Germany, Hamburg", 
         "recordingdate": "17-08-21-13-12-22", 
+        "recordingroom": "vr-room"
+    }, 
+    "34": {
+        "accent": "German", 
+        "age": "25", 
+        "gender": "male", 
+        "native speaker": "no", 
+        "origin": "Europe, Germany, Munich", 
+        "recordingdate": "17-09-01-13-26-49", 
         "recordingroom": "vr-room"
     }, 
     "35": {
