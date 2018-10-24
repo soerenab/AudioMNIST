@@ -20,6 +20,7 @@ Deep neural networks have been successfully applied to problems in many domains.
 * A python script to preprocess the provided audio records and to store them in a format suitable for the provided caffe models.
 
 
+### Reference
 If you use the provided audioMNIST dataset for your project, please cite [our paper](https://arxiv.org/abs/1807.03418):
 
 ```
