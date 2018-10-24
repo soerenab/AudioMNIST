@@ -5,16 +5,19 @@ Deep neural networks have been successfully applied to problems in many domains.
 ### Repository structure
 
 #### data (audioMNIST)
-The dataset consists of 30000 audio samples of spoken digits (0-9) of 60 different speakers. There is one directory per speaker holding the audio recordings. Additionally "audioMNIST_meta.txt" provides meta information such as gender or age of each speaker.
+* The dataset consists of 30000 audio samples of spoken digits (0-9) of 60 different speakers. 
+* There is one directory per speaker holding the audio recordings. 
+* Additionally "audioMNIST_meta.txt" provides meta information such as gender or age of each speaker.
 
 #### models
-There are two different model architectures and training parameters in the CAFFE deep learning framework format as well as a bash script to train and test the models.
+* There are two different model architectures and training parameters in the CAFFE deep learning framework format.
+* Bash script to train and test models.
 
 #### recording_scripts
-Scripts to gather further audio samples. 
+* Scripts to gather further audio samples. 
 
 #### preprocessing_data.py
-A python script to preprocess the provided audio records and to store them in a format suitable for the provided caffe models.
+* A python script to preprocess the provided audio records and to store them in a format suitable for the provided caffe models.
 
 
-If you use the provided audioMNIST dataset for your project, please cite **Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals project** (https://arxiv.org/abs/1807.03418).
+If you use the provided audioMNIST dataset for your project, please cite **Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals** (https://arxiv.org/abs/1807.03418).
