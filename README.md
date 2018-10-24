@@ -20,4 +20,15 @@ Deep neural networks have been successfully applied to problems in many domains.
 * A python script to preprocess the provided audio records and to store them in a format suitable for the provided caffe models.
 
 
-If you use the provided audioMNIST dataset for your project, please cite **Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals** (https://arxiv.org/abs/1807.03418).
+If you use the provided audioMNIST dataset for your project, please cite [our paper](https://arxiv.org/abs/1807.03418):
+
+```
+@misc{becker2018interpreting,
+  title={Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals},
+  author={Sören Becker and Marcel Ackermann and Sebastian Lapuschkin and Klaus-Robert Müller and Wojciech Samek},
+  year={2018},
+  eprint={1807.03418},
+  archivePrefix={arXiv},
+  primaryClass={cs.SD}
+}
+```
