@@ -24,12 +24,13 @@ Deep neural networks have been successfully applied to problems in many domains.
 If you use the provided audioMNIST dataset for your project, please cite [our paper](https://arxiv.org/abs/1807.03418):
 
 ```
-@misc{becker2018interpreting,
-  title={Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals},
-  author={Sören Becker and Marcel Ackermann and Sebastian Lapuschkin and Klaus-Robert Müller and Wojciech Samek},
-  year={2018},
-  eprint={1807.03418},
-  archivePrefix={arXiv},
-  primaryClass={cs.SD}
+@ARTICLE{becker2018interpreting,
+  author    = {Becker, S\"oren and Ackermann, Marcel and Lapuschkin, Sebastian and M\"uller, Klaus-Robert and Samek, Wojciech},
+  title     = {Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals},
+  journal   = {CoRR},
+  volume    = {abs/1807.03418},
+  year      = {2018},
+  archivePrefix = {arXiv},
+  eprint    = {1807.03418},
 }
 ```
