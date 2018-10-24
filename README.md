@@ -1,6 +1,6 @@
 ## Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals
 
-Deep neural networks have been successfully applied to problems in many domains. Understanding their inner workings with respect to feature selection and decision making, however, remains challenging and thus trained models are often regarded as black boxes. Layerwise Relevance Propagation (LRP) addresses this issue by finding those features that a model relies on, offering deeper understanding and interpretation of trained networks. This repository contains code and data used in the **Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals project** (https://arxiv.org/abs/1807.03418).
+Deep neural networks have been successfully applied to problems in many domains. Understanding their inner workings with respect to feature selection and decision making, however, remains challenging and thus trained models are often regarded as black boxes. Layerwise Relevance Propagation (LRP) addresses this issue by finding those features that a model relies on, offering deeper understanding and interpretation of trained networks. This repository contains code and data used in **Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals** (https://arxiv.org/abs/1807.03418).
 
 ### Repository structure
 
