@@ -133,27 +133,7 @@ def _preprocess_data(src_dst_meta):
 
     return
 
-
-
-def create_splits(src, dst):
-
-    """
-    Creation of text files specifying which files training, validation and test
-    set consist of for each cross-validation split. 
-
-    Parameters:
-    -----------
-        src: string
-            Path to directory containing the directories for each subject that
-            hold the preprocessed data in hdf5 format.
-        dst: string
-            Destination where to store the text files specifying training, 
-            validation and test splits.
-
-    """
-
-    print("creating splits")
-    splits={"digit":{   "train":[   set([28, 56,  7, 19, 35,  1,  6, 16, 23, 34, 46, 53, 36, 57,  9, 24, 37,  2, \
+splits={"digit":{   "train":[   set([28, 56,  7, 19, 35,  1,  6, 16, 23, 34, 46, 53, 36, 57,  9, 24, 37,  2, \
                                           8, 17, 29, 39, 48, 54, 43, 58, 14, 25, 38,  3, 10, 20, 30, 40, 49, 55]),
 
                                     set([36, 57,  9, 24, 37,  2,  8, 17, 29, 39, 48, 54, 43, 58, 14, 25, 38,  3, \
@@ -194,6 +174,25 @@ def create_splits(src, dst):
                                     set([36, 47, 56, 2, 44, 50]),
                                     set([26, 12, 57, 25, 37, 45]),
                                     set([43, 28, 52, 48, 53, 41])]}}
+
+def create_splits(src, dst):
+
+    """
+    Creation of text files specifying which files training, validation and test
+    set consist of for each cross-validation split. 
+
+    Parameters:
+    -----------
+        src: string
+            Path to directory containing the directories for each subject that
+            hold the preprocessed data in hdf5 format.
+        dst: string
+            Destination where to store the text files specifying training, 
+            validation and test splits.
+
+    """
+
+    print("creating splits")
 
     for split in range(5):
         for modus in ["train", "validate", "test"]:
