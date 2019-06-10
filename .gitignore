@@ -16,4 +16,4 @@ data/**/*
 logs/**/*
 models/**/*
 tensorboard/**/*
-!**/
+!**/.keep
