@@ -43,6 +43,8 @@ def train(dataset_path, checkpoint_path, logdir, batch_size, epochs):
 
     model = audionet.build_model()
 
+    model.compile(loss='categorical_crossentropy', metrics=["accuracy"], optimizer=optimizers.Adam(lr=0.0005))
+
     if not os.path.isdir(logdir): os.mkdir(logdir)
 
     tb_callback = tf.keras.callbacks.TensorBoard(log_dir=logdir,

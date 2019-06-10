@@ -30,8 +30,4 @@ def build_model():
     model.add(layers.Dropout(0.5))
     model.add(layers.Dense(10, name='dense3', activation='softmax'))
 
-    #adam = optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
-
-    model.compile(loss='categorical_crossentropy', metrics=["accuracy"], optimizer=optimizers.Adam(lr=0.0005))
-
     return model
