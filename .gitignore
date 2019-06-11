@@ -1,8 +1,6 @@
 # compiled python
 **/*.pyc
-
-# trained models
-models/*/runs/
+**/.ipynb_checkpoints/*
 
 # (newly) collected recordings
 recording_scripts/data
@@ -11,4 +9,11 @@ recording_scripts/session_log.txt
 recording_scripts/*.checkpoint*
 
 # preprocessed data
-preprocessed_data/
+.vscode/**/*
+preprocessed_data/**/*
+tf_data/**/*
+data/**/*
+logs/**/*
+models/**/*
+tensorboard/**/*
+!**/.keep
