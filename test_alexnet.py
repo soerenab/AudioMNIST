@@ -11,4 +11,4 @@ if __name__=="__main__":
 
     args = parser.parse_args()
 
-    audionet.test(args.input_dataset, args.checkpoint_output, args.epoch, args.batch_size)
+    alexnet.test(args.input_dataset, args.checkpoint_output, args.epoch, args.batch_size)
