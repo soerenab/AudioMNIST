@@ -10,7 +10,7 @@ def build_model():
     model.add(layers.BatchNormalization())
 
     model.add(layers.Conv2D(256, kernel_size = (5,5), padding='valid', activation='relu', name='conv2'))
-    model.add(layers.MaxPooling2D(pool_size=3,strides=2 name='pool2'))
+    model.add(layers.MaxPooling2D(pool_size=3,strides=2, name='pool2'))
     model.add(layers.BatchNormalization())
 
     model.add(layers.Conv2D(384, kernel_size = (3,3), padding='valid', activation='relu', name='conv3'))
@@ -18,7 +18,8 @@ def build_model():
     model.add(layers.Conv2D(384, kernel_size = (3,3), padding='valid', activation='relu', name='conv4'))
 
     model.add(layers.Conv2D(256, kernel_size = (3,3), padding='valid', activation='relu', name='conv5'))
-
+    model.add(layers.MaxPooling2D(pool_size=2,strides=2))
+    
     model.add(layers.Flatten())
     model.add(layers.Dense(1024, name='dense1'))
     model.add(layers.Dropout(0.5))
