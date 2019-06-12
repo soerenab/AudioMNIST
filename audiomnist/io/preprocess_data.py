@@ -116,7 +116,7 @@ def _preprocess_data(src, audionet_writer, alexnet_writer, src_meta):
 
         ##### AlexNet #####
 
-        # stft, with seleced parameters, spectrogram will have shape (228,230)
+        # stft, with seleced parameters, spectrogram will have shape (227,227)
         f, t, Zxx = scipy.signal.stft(embedded_data, 8000, nperseg = 455, noverlap = 420, window='hann')
         # get amplitude
         Zxx = np.abs(Zxx[0:227, 2:-1])

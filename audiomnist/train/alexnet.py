@@ -7,6 +7,7 @@ import tensorflow as tf
 import gc
 import numpy as np
 import glob
+from tensorflow.keras import optimizers
 
 
 def make_tuple(record):
@@ -71,7 +72,7 @@ def train(dataset_path, checkpoint_path, logdir, batch_size, epochs):
 
     model.load_weights(best_epoch_checkpoint)
 
-    scores = model.evaluate(test_dataset, steps=test_nb_samples)
+    scores = model.evaluate(test_dataset, steps=int(math.ceil(test_nb_samples/batch_size)))
 
     with open(os.path.join(checkpoint_path,f"evalution_epoch{best_epoch}.txt"), "w") as fh:
         for i, name in enumerate(model.metrics_names):
@@ -84,13 +85,15 @@ def get_epoch_checkpoint(checkpoint_path, epoch):
     return epoch_checkpoint
 
 def test(dataset_path, checkpoint_path, epoch, batch_size):
-    dataset = load_audionet_dataset(dataset_path)
+    dataset = load_alexnet_dataset(dataset_path)
     test_dataset = dataset.filter(split('digit', 'test')) \
         .map(make_tuple) \
         .shuffle(10000, seed=42).batch(batch_size)
     test_nb_samples = len(splits['digit']['test'][0])*500
 
-    model = audionet.build_model()
+    model = alexnet.build_model()
+
+    model.compile(loss='categorical_crossentropy', metrics=["accuracy"], optimizer=optimizers.Adam(lr=0.0005))
 
     epoch_checkpoint = get_epoch_checkpoint(checkpoint_path, epoch)
 

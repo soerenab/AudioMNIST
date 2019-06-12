@@ -5,7 +5,7 @@ from tensorflow.keras import layers, initializers, optimizers
 
 def build_model():
     model = tf.keras.Sequential()
-    model.add(layers.Conv2D(96, kernel_size = (11,11), input_shape=(228,230), strides=(4,4), padding='valid', activation='relu', name='conv1'))
+    model.add(layers.Conv2D(96, kernel_size = (11,11), input_shape=(227,227,1), strides=(4,4), padding='valid', activation='relu', name='conv1'))
     model.add(layers.MaxPooling2D(pool_size=3,strides=2, name='pool1'))
     model.add(layers.BatchNormalization())
 

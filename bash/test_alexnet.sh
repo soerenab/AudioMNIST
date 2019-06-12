@@ -19,4 +19,4 @@ cd /workdir/idrissib/AudioMNIST
 
 source activate aud_interp_gpu
 
-mprof run -o logs/mprofile_<YYYYMMDDhhmmss>.dat test_alexnet.py -i tf_data/alexnet.tfrecords -o models/alexnet2 -e 18 -b 100
+mprof run -o "logs/mprofile_<YYYYMMDDhhmmss>.dat" test_alexnet.py -i tf_data/alexnet.tfrecords -o models/alexnet2 -e 18 -b 100
