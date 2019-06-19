@@ -1,5 +1,5 @@
 import argparse
-from audiomnist.train import wavenet
+from audiomnist.train import vae as autoencoder
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description="Training script for tensorflow.keras AutoEncoder model.")
@@ -11,4 +11,4 @@ if __name__=="__main__":
 
     args = parser.parse_args()
 
-    wavenet.train(args.input_dataset,args.checkpoint_output,args.logdir, args.batch_size, args.epoch)
+    autoencoder.train(args.input_dataset,args.checkpoint_output,args.logdir, args.batch_size, args.epoch)

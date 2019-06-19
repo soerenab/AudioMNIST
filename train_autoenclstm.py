@@ -1,5 +1,5 @@
 import argparse
-from audiomnist.train import autoencoder
+from audiomnist.train import lstm2 as autoencoder
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description="Training script for tensorflow.keras AutoEncoder model.")
