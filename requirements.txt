@@ -18,7 +18,7 @@ matplotlib == 1.5.1
 # recording_scripts/main.py: 4
 # recording_scripts/recording_gui.py: 4
 # recording_scripts/util.py: 13
-numpy == 1.11.0
+numpy == 1.22.0
 
 # recording_scripts/adjustCuts.py: 5
 # recording_scripts/util.py: 14
