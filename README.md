@@ -21,16 +21,19 @@ Deep neural networks have been successfully applied to problems in many domains.
 
 
 ### Reference
-If you use the provided audioMNIST dataset for your project, please cite [our paper](https://arxiv.org/abs/1807.03418):
+If you use the provided audioMNIST dataset for your project, please cite [our paper](https://www.sciencedirect.com/science/article/pii/S0016003223007536):
 
-```
-@ARTICLE{becker2018interpreting,
-  author    = {Becker, S\"oren and Ackermann, Marcel and Lapuschkin, Sebastian and M\"uller, Klaus-Robert and Samek, Wojciech},
-  title     = {Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals},
-  journal   = {CoRR},
-  volume    = {abs/1807.03418},
-  year      = {2018},
-  archivePrefix = {arXiv},
-  eprint    = {1807.03418},
+```bib
+@article{audiomnist2023,
+    title = {AudioMNIST: Exploring Explainable Artificial Intelligence for audio analysis on a simple benchmark},
+    journal = {Journal of the Franklin Institute},
+    year = {2023},
+    issn = {0016-0032},
+    doi = {https://doi.org/10.1016/j.jfranklin.2023.11.038},
+    url = {https://www.sciencedirect.com/science/article/pii/S0016003223007536},
+    author = {Sören Becker and Johanna Vielhaben and Marcel Ackermann and Klaus-Robert Müller and Sebastian Lapuschkin and Wojciech Samek},
+    keywords = {Deep learning, Neural networks, Interpretability, Explainable artificial intelligence, Audio classification, Speech recognition},
 }
 ```
+
+(The above paper is the published (and extended) version of the paper that was previously on arxiv under the title _Interpreting and Explaining Deep Neural Networks for Classification of Audio Signals_.)
