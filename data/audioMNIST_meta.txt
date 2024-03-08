@@ -1,7 +1,7 @@
 {
     "01": {
-        "accent": "german", 
-        "age": 30, 
+        "accent": "German", 
+        "age": "30", 
         "gender": "male", 
         "native speaker": "no", 
         "origin": "Europe, Germany, Wuerzburg", 
