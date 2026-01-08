@@ -28,7 +28,7 @@ pandas == 0.19.2
 # recording_scripts/adjustCuts.py: 2,6,9
 # recording_scripts/recording_gui.py: 5
 # recording_scripts/util.py: 11,12
-scipy == 0.17.0
+scipy == 1.10.0
 
 # recording_scripts/main.py: 3
 # recording_scripts/recording_gui.py: 2
